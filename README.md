@@ -3,7 +3,7 @@
 Code and gridded data for
 
 > Feng, X., Li, G., Deng, J., Jiang, S., Lu, J., Yang, Q., Shi, S., Zhang, Y., Chen, S., Wang, D., Zhao, C., Harrison, M. T., Zhou, M. & Liu, K.
-> **Climate change downgrades China's rice harvest even where yields rise.** *Nature Food* (submitted).
+> **Climate change downgrades China's rice harvest even where yields rise.**.
 
 The workflow trains ensemble models of seven rice grain-quality traits on 1,136 Chinese field and enrichment records,
 projects the traits with 25 ISIMIP3b crop-model × climate-model members (baseline 1981–2010; 2041–2070 under SSP1-2.6 and
