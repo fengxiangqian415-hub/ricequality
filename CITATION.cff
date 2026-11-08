@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and the archived release."
+title: "ricequality: code and gridded projections for 'Climate change downgrades China's rice harvest even where yields rise'"
+authors:
+  - family-names: Feng
+    given-names: Xiangqian
+    email: fengxiangqian415@gmail.com
+  - family-names: Liu
+    given-names: Ke
+license: MIT
+repository-code: "https://github.com/fengxiangqian415-hub/ricequality"
+keywords: [rice grain quality, climate change, ISIMIP3b, China, head-rice yield]

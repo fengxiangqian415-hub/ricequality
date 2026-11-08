@@ -1,0 +1,23 @@
+name: ricequality
+channels: [conda-forge]
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - netcdf4
+  - rasterio
+  - geopandas
+  - shapely
+  - pyproj
+  - matplotlib
+  - pillow
+  - openpyxl
+  - lxml
+  - joblib
+  - scikit-learn=1.7.2
+  - xgboost=3.2.0
+  - lightgbm=4.6.0
+  - catboost=1.2.10
+  - shap=0.49.1
