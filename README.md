@@ -3,7 +3,7 @@
 Code and gridded data for
 
 > Feng, X., Li, G., Deng, J., Jiang, S., Lu, J., Yang, Q., Shi, S., Zhang, Y., Chen, S., Wang, D., Zhao, C., Harrison, M. T., Zhou, M. & Liu, K.
-> **Climate change downgrades China's rice harvest even where yields rise.**.
+> **Climate change downgrades China's rice harvest even where yields rise.**
 
 The workflow trains ensemble models of seven rice grain-quality traits on 1,136 Chinese field and enrichment records,
 projects the traits with 25 ISIMIP3b crop-model × climate-model members (baseline 1981–2010; 2041–2070 under SSP1-2.6 and
@@ -16,9 +16,7 @@ rice area into premium, moderate and common classes, and values head-rice produc
 |---|---|
 | `code/` | Analysis pipeline (`01_…` to `36_…`), shared modules (`config_1004.py`, `q_common_1004.py`, …) and helper tools |
 | `code/figs_1020/` | Figure scripts for Fig. 1, Fig. 2 and several Supplementary Figures, plus `assets/` (grain scans and plant outlines used in Fig. 1) |
-| `code/static_figs/` | Supplementary Figs. 24 (analysis workflow, drawn separately) and 25 (predictor screening, from the training workflow), exported from the final Supplementary Information |
-| `data/gridded/` | GeoTIFF deposit described in Supplementary Table 13 (written by `code/export_tif_1108.py`) |
-| `data/README.md` | Data description, naming convention, format and licence |
+| `data.7z` | GeoTIFF files described in Supplementary Table 13 (720 files); extracts to `data/gridded/` and `data/README.md`, written by `code/export_tif_1108.py` |
 
 ## Figures and the scripts that make them
 
@@ -42,8 +40,8 @@ Supplementary items are numbered by first citation in the paper. `code/collect_f
 | Supplementary Fig. 21 | `10_calc_head_rice_yield_1004.py` | `FigS21_head_rice_yield` |
 | Supplementary Fig. 22 | `figS22_price_trends.py` (with the two price CSV files) | `FigS22_price_trend` |
 | Supplementary Fig. 23 | `36_yield_only_valuation_1106.py` | `FigS23_valuation` |
-| Supplementary Fig. 24 | `static_figs/` (schematic) | `FigS24_workflow` |
-| Supplementary Fig. 25 | `static_figs/` (training workflow) | `FigS25_correlation` |
+| Supplementary Fig. 24 | Schematic drawn separately (no script) | — |
+| Supplementary Fig. 25 | Predictor screening in the training workflow (see `code/training/README.md`) | — |
 
 | Supplementary Table | Source |
 |---|---|
@@ -63,4 +61,4 @@ Supplementary items are numbered by first citation in the paper. `code/collect_f
 
 ## Licence
 
-Code: MIT (see `LICENSE`). Data in `data/`: CC BY 4.0. Please cite the paper and the archived release.
+Code: MIT (see `LICENSE`). Data in `data.7z`: CC BY 4.0. Please cite the paper.
