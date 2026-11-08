@@ -1,9 +1,0 @@
-统一色阶（作用于整幅图）：黑场 1.0，gamma 0.6；白场 = 同组米粒像素合并 99.7 分位：brown_high、brown_low → 209.0；milling_high、milling_low、appearance_high、appearance_low → 121.0。灰度扫描；纠偏后按同一尺寸 92.2 × 29.7 mm 裁剪（米粒区四周至少留 2.5 mm，右侧 0.0 mm 放比例尺）；扫描 1200 dpi（1 mm = 47.24 像素），Fig. 1 用图 600 dpi
-比例尺：5 mm 白色横线，右下角，不标注（长度写在图注），按 Fig. 1a 格子宽 52.7 mm 换算，放进 Fig. 1 后线粗 0.45 mm
-伪彩色：brown_high, brown_low 整幅图按灰度映射到黄褐色调（黑 → (170, 138, 78) → (255, 244, 214)，强度 0.85），表示糙米的颜色；扫描本身为灰度
-5cccaf55.tif → scanner_brown_high.png：50 粒，纠偏 -4.0°，高光截断 0.01% 的米粒像素，输出 2177 × 702 px
-3ff06086.tif → scanner_brown_low.png：50 粒，纠偏 -9.5°，高光截断 0.82% 的米粒像素，输出 2177 × 702 px
-430605d1.tif → scanner_milling_high.png：50 粒，纠偏 -1.8°，高光截断 0.30% 的米粒像素，输出 2177 × 702 px
-82dd73a9.tif → scanner_milling_low.png：50 粒，纠偏 -1.0°，高光截断 0.38% 的米粒像素，输出 2177 × 702 px
-7d235e84.tif → scanner_appearance_high.png：50 粒，纠偏 +4.1°，高光截断 0.01% 的米粒像素，输出 2177 × 702 px
-7ac0c056.tif → scanner_appearance_low.png：50 粒，纠偏 -2.0°，高光截断 0.55% 的米粒像素，输出 2177 × 702 px
